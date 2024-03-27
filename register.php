@@ -52,13 +52,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
     <div class="zaklad">
         <form action="register.php" method="post">
-            <h1>Registrácia</h1>
+            <h1>Sign up</h1>
             <input type="text" name="username" placeholder="username" required autofocus><br>
             <input type="password" name="password" placeholder="password" required><br>
             <input type="password" name="confirm_password" placeholder="confirm password" required><br>
             <input type="email" name="email" placeholder="email" required><br>
-            <button type="submit" name="submit">Registrovať sa</button>
-            <a href="index.php" id="Register">Prihlásiť sa</a>
+            <button type="submit" name="submit">Sign up</button>
+            <a href="index.php" id="Register">Log in</a>
         </form>
     </div>
 </body>
