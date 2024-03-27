@@ -45,11 +45,11 @@ if (isset($_POST['submit']) && !empty($_POST['username']) && !empty($_POST['pass
 <body>
 <div class="zaklad">
     <form action="index.php" method="post">
-        <h1>Prihláste sa</h1>
+        <h1>Log in</h1>
         <input type="text" name="username" placeholder="username" required autofocus><br>
         <input type="password" name="password" placeholder="password" required>
-        <button type="submit" name="submit">Prihlásiť sa</button>
-        <a href="register.php" id="Register">Registrovať sa</a>
+        <button type="submit" name="submit">Log in</button>
+        <a href="register.php" id="Register">Sign up</a>
     </form>
 </div>
 </body>
